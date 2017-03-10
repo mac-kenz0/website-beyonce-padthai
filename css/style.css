@@ -2,20 +2,44 @@
 		.bey-heading {
 	 		font-size: 1.75em;
 		}
+		.two-column-fluid-container img{
+    		width: 90%;
+    		min-width: 200px;
+    		max-width:400px;
+    		padding:1%;
+		}	
 }
 @media (min-width:400px) and (max-width:849px){
 		.bey-heading {
 	 		font-size: 2.5em;
 		}
+		.two-column-fluid-container img {
+			width: 60%;
+    		min-width: 300px;
+    		max-width: 600px;
+}		
 }
 
 @media (min-width:850px){
 		.bey-heading {
 	 		font-size: 3em;
 		}
+		.two-column-fluid-container img{
+    		width:45%;
+    		padding:1%;
+		}
 }
 
+
+.two-column-fluid-container {
+    text-align: center;
+    margin: 0 auto;
+}
+.two-column-fluid-container img {
+		padding:1%;
+}		
 .bey-heading {
     text-align: center;
     font-family: 'Megrim', cursive;
 }
+
