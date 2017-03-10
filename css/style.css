@@ -1,0 +1,21 @@
+@media (max-width:399px){
+		.bey-heading {
+	 		font-size: 1.75em;
+		}
+}
+@media (min-width:400px) and (max-width:849px){
+		.bey-heading {
+	 		font-size: 2.5em;
+		}
+}
+
+@media (min-width:850px){
+		.bey-heading {
+	 		font-size: 3em;
+		}
+}
+
+.bey-heading {
+    text-align: center;
+    font-family: 'Megrim', cursive;
+}
